@@ -1,4 +1,4 @@
-with open("Day1.txt") as plik:
+with open("inputs/Day1.txt") as plik:
     dane = plik.readlines()
     for i in range(len(dane)):
         dane[i] = dane[i].rstrip()
