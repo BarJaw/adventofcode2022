@@ -3,7 +3,7 @@ with open("inputs/Day1.txt") as plik:
     for i in range(len(dane)):
         dane[i] = dane[i].rstrip()
 
-      
+
     maxSum = 0
     sum = 0
     elves = []
@@ -15,5 +15,3 @@ with open("inputs/Day1.txt") as plik:
             sum += int(dane[i])
     elves = sorted(elves)
     print(elves[-1]+elves[-2]+elves[-3])
-
-    
